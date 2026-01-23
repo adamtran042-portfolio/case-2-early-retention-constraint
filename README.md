@@ -23,13 +23,14 @@ Do not scale acquisition until first-month retention is materially improved. Gro
 - Scaling acquisition under current conditions would increase volume without proportionate retained users or revenue.
 
 ## Repo Structure
-- `sql/core_analysis.sql` – Cohort definition and retention calculation
-- `python/core_analysis.ipynb` – Cohort retention and revenue analysis with visualizations
-- `outputs/` – Retention and revenue cohort heatmaps
+- `sql/core_analysis.sql` – cohort definition and retention calculation
+- `python/core_analysis.ipynb` – cohort retention and revenue analysis with visualizations
+- `outputs/customer_retention_by_cohort_month.png` – customer retention heatmap
+- `outputs/revenue_retention_by_cohort_month.png` – revenue retention heatmap
 
 ## Notes
 This repository focuses on analysis logic and decision-making.  
-Environment setup, data ingestion, and database configuration steps are intentionally omitted.
+Environment setup, data ingestion, and execution steps are intentionally omitted.
 
 ## Portfolio Link
 <https://portfolio-home.notion.site/Case-2-Index-Page-2eabf1a14b4980769845cbce6b6969c8/>
