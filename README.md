@@ -14,7 +14,7 @@ Do not scale acquisition until first-month retention is materially improved. Gro
 ## Analysis Overview
 - SQL used to define customer cohorts by first purchase month and calculate cohort-based retention.
 - Python used to compute customer and revenue retention matrices and visualize cohort behavior over time.
-- Retention is defined as a customer making at least one purchase in a given month.
+- Retention is defined as a customer making at least one purchase in a given cohort month.
 
 ## Key Findings
 - Sharp churn occurs in the first month across nearly all cohorts.
